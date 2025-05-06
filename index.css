@@ -1,0 +1,43 @@
+@import url("./base.css");
+
+.main {
+    .content {
+        position: relative; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        background-image: url("./src/images/retrato-familiar.jpg");
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+        z-index: 1; 
+
+      }
+    .content::after {
+        content: "";
+        opacity: 0.5;
+        position: absolute;
+        top: 0; left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #1C3AA9; 
+        z-index: 0; 
+      }
+    .content *{
+        z-index: 2;
+    }
+    .header{
+        min-height: 3.8rem;
+        padding: 0.5rem 0 0;
+        margin-bottom: 0;
+        hr{
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+    }
+    .footer{
+        opacity: 1;
+    }
+   
+}

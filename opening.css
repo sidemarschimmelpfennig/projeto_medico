@@ -1,0 +1,39 @@
+@import url("./base.css");
+
+h2{
+    color: #4285F4;
+}
+p{
+    font-weight: bold;
+}
+
+table{
+    min-width: 500px;
+    border: solid 1px gray;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.26);
+    text-align: center;
+    thead{
+        tr{
+            opacity: 0.8;
+            background-color: #1C3AA9;
+            th{
+                color: var(--text-color);    
+                
+            }         
+        }
+
+    }
+    tbody{
+        color: #3A3A3D ;
+        font-weight: 600;
+        tr:nth-child(even) td{
+            background-color: #4285F4;
+
+        }
+    }
+    
+}
+
+

@@ -1,0 +1,12 @@
+@import url("./base.css");
+
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    iframe{
+        border-radius: 0.5rem;
+        border: 1px solid #3A3A3D;
+    }
+}
